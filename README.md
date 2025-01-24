@@ -45,7 +45,6 @@ This script helps clean up old snap revisions and perform general system mainten
 6.  **Disk Usage After Snap Removal:** Displays disk usage information again to show the effect of the cleanup.
 7.  **System Cleanup:** Performs system cleanup operations using `apt` and `journalctl`.
 8.  **Final Disk Usage:** Displays disk usage information again.
-9.  **Completion Message:** Displays a message indicating successful completion.
 
 ## Error Handling
 
