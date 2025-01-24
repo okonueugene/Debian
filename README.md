@@ -21,18 +21,18 @@ This script helps clean up old snap revisions and perform general system mainten
 
 ## How to Use
 
-1.  **Download the script:** Download the `snap-clean.sh` script to your local machine. You can do this by copying the script content and saving it to a file named `snap-clean.sh`.
+1.  **Download the script:** Download the `cleaner.sh` script to your local machine. You can do this by copying the script content and saving it to a file named `cleaner.sh`.
 
 2.  **Make the script executable:** Open a terminal and navigate to the directory where you saved the script. Then, run the following command:
 
     ```bash
-    chmod +x snap-clean.sh
+    chmod +x cleaner.sh
     ```
 
 3.  **Run the script:** Execute the script using `sudo` because some cleanup operations require root privileges:
 
     ```bash
-    sudo ./snap-clean.sh
+    sudo ./cleaner.sh
     ```
 
 ## Script Execution Flow
@@ -61,5 +61,29 @@ The script includes basic error handling:
 ## Example
 
 ```bash
-sudo ./clearner.sh
-```# Debian
+sudo ./cleaner.sh
+```
+
+## Contributing
+
+If you find this script useful and want to contribute, please fork the repository and create a pull request. Your contributions are appreciated!
+
+## License
+
+This script is released under the [MIT License](LICENSE).
+
+## Author
+
+This script was created by [Okonu Eugene](https://github.com/okonueugene).
+
+## Acknowledgments
+
+The reccomendations I obtained from various online articles.
+
+1. [7 Simple Ways to Free Up Space on Ubuntu and Linux Mint](https://itsfoss.com/free-up-space-ubuntu-linux/)
+
+2. [8 Ways to Maintain a Clean, Lean Ubuntu Machine](https://www.maketecheasier.com/8-ways-to-maintain-a-clean-lean-ubuntu-machine/)
+
+## Special Thanks
+
+Special thanks to [GitHub](https://github.com) for providing a platform for sharing code and inspiring others.
